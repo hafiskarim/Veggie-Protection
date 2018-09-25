@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hafiskarim.veggieprotection.InformasiSayuran">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="5dp"
+        card_view:cardPreventCornerOverlap="false"
+        card_view:cardCornerRadius="4dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/gambar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:background="@color/white"/>
+
+                <RelativeLayout
+                    android:id="@+id/groupket"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/gambar"
+                    android:background="@color/white">
+
+                    <TextView
+                        android:id="@+id/keterangan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:background="@color/white"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/groupTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/background"
+                    android:layout_below="@id/groupket">
+
+                    <ImageView
+                        android:id="@+id/bookmark"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp" />
+
+                    <TextView
+                        android:id="@+id/namaSayur"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="80dp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_toRightOf="@+id/bookmark"
+                        android:textColor="@color/white"
+                        android:textAllCaps="true"/>
+
+                    <TextView
+                        android:id="@+id/btnHama"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/btnhama"
+                        android:text="Hama"
+                        android:gravity="center"
+                        android:textSize="14sp"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/white"/>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

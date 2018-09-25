@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">VeggieProtection</string>
+    <string name="Title">veggie protection</string>
+    <string name="title_activity_informasi_sayuran2">InformasiSayuran2</string>
+    <string name="action_settings">Settings</string>
+    <string name="kettomat">Tomat (Solanum lycopersicum syn. Lycopersicum esculentum) adalah tumbuhan dari keluarga Solanaceae, tumbuhan asli Amerika Tengah dan Selatan, dari Meksiko sampai Peru. Tomat merupakan tumbuhan siklus hidup singkat, dapat tumbuh setinggi 1 sampai 3 meter. Tumbuhan ini memiliki buah berawarna hijau, kuning, dan merah yang biasa dipakai sebagai sayur dalam masakan atau dimakan secara langsung tanpa diproses. Tomat memiliki batang dan daun yang tidak dapat dikonsumsi karena masih sekeluarga dengan kentang dan Terung yang mengadung Alkaloid.</string>
+    <string name="ketbayam">Bayam merupakan entitySayuran yang sangat banyak di konsumsi oleh masyarakat karena selain enak untuk di jadikan entitySayuran juga dapat bermanfaat untuk kesehatan. Namun untuk mendapatkan entitySayuran bayam yang berkualitas, tanaman bayam harus terhindar dari hama dan penyakit.</string>
+    <string name="ketterong">Terong adalah tumbuhan penghasil buah yang dijadikan sayur-entitySayuran.  Terung berkerabat dekat dengan kentang dan leunca, dan agak jauh dari tomat.</string>
+    <string name="ketcabai">Cabai atau cabai merah atau chili adalah buah dan tumbuhan anggota genus Capsicum. Buahnya dapat digolongkan sebagai entitySayuran maupun bumbu, tergantung bagaimana digunakan. Sebagai bumbu, buah cabai yang pedas sangat populer di Asia Tenggara sebagai penguat rasa makanan. Bagi seni masakan Padang, cabai bahkan dianggap sebagai "bahan makanan pokok" ke sepuluh (alih-alih sembilan). Sangat sulit bagi masakan Padang dibuat tanpa cabai.</string>
+    <string name="ketwortel">Wortel adalah tumbuhan biennial (siklus hidup 12 - 24 bulan) yang menyimpan karbohidrat dalam jumlah besar untuk tumbuhan tersebut berbunga pada tahun kedua. Batang bunga tumbuh setinggi sekitar 1 m, dengan bunga berwarna putih, dan rasa yang manis langu. Bagian yang dapat dimakan dari wortel adalah bagian umbi atau akarnya.</string>
+</resources>

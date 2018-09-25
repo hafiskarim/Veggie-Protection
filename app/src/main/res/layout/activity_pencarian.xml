@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:context="com.example.hafiskarim.veggieprotection.Pencarian">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Cari Sayuran"
+        android:id="@+id/textView6"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/ed_search"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="Cari Sayuran"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:background="@drawable/search_view"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView"
+        android:layout_below="@+id/searchView"
+        android:layout_marginTop="10dp"
+        android:dividerHeight="0dp"
+        android:divider="@color/white"
+        android:background="@color/white" />
+</LinearLayout>
